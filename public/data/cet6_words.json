@@ -1,0 +1,252 @@
+[
+  {
+    "id": 1,
+    "word": "abandon",
+    "phonetic": "/əˈbændən/",
+    "partOfSpeech": "v.",
+    "definition": "放弃；抛弃；遗弃",
+    "frequency": "high",
+    "sentence": "The sailors had to abandon the sinking ship.",
+    "translation": "水手们不得不放弃下沉的船。"
+  },
+  {
+    "id": 2,
+    "word": "abolish",
+    "phonetic": "/əˈbɒlɪʃ/",
+    "partOfSpeech": "v.",
+    "definition": "废除；取消（法律、制度、习俗等）",
+    "frequency": "high",
+    "sentence": "The government decided to abolish the outdated law.",
+    "translation": "政府决定废除这项过时的法律。"
+  },
+  {
+    "id": 3,
+    "word": "absorb",
+    "phonetic": "/əbˈzɔːb/",
+    "partOfSpeech": "v.",
+    "definition": "吸收；吸引（注意力）；使全神贯注",
+    "frequency": "high",
+    "sentence": "Plants absorb nutrients from the soil through their roots.",
+    "translation": "植物通过根部从土壤中吸收养分。"
+  },
+  {
+    "id": 4,
+    "word": "abstract",
+    "phonetic": "/ˈæbstrækt/",
+    "partOfSpeech": "adj. / n.",
+    "definition": "抽象的；深奥的；摘要，概括",
+    "frequency": "high",
+    "sentence": "The concept of justice is often considered abstract.",
+    "translation": "正义的概念通常被认为是抽象的。"
+  },
+  {
+    "id": 5,
+    "word": "absurd",
+    "phonetic": "/əbˈsɜːd/",
+    "partOfSpeech": "adj.",
+    "definition": "荒谬的；荒唐的；不合理的",
+    "frequency": "medium",
+    "sentence": "It is absurd to blame the weather for your own mistakes.",
+    "translation": "把自己的错误归咎于天气是荒谬的。"
+  },
+  {
+    "id": 6,
+    "word": "abundant",
+    "phonetic": "/əˈbʌndənt/",
+    "partOfSpeech": "adj.",
+    "definition": "丰富的；充裕的；大量的",
+    "frequency": "high",
+    "sentence": "The region is abundant in natural resources such as oil and gas.",
+    "translation": "该地区拥有丰富的石油和天然气等自然资源。"
+  },
+  {
+    "id": 7,
+    "word": "abuse",
+    "phonetic": "/əˈbjuːz/",
+    "partOfSpeech": "v. / n.",
+    "definition": "滥用；虐待；辱骂",
+    "frequency": "high",
+    "sentence": "The politician was accused of abusing his power for personal gain.",
+    "translation": "该政治家被指控滥用职权谋取私利。"
+  },
+  {
+    "id": 8,
+    "word": "accelerate",
+    "phonetic": "/əkˈseləreɪt/",
+    "partOfSpeech": "v.",
+    "definition": "加速；促进；加快",
+    "frequency": "high",
+    "sentence": "The new policy is expected to accelerate economic growth significantly.",
+    "translation": "新政策预计将显著加速经济增长。"
+  },
+  {
+    "id": 9,
+    "word": "access",
+    "phonetic": "/ˈækses/",
+    "partOfSpeech": "n. / v.",
+    "definition": "通道；进入权；获取；访问",
+    "frequency": "high",
+    "sentence": "Students have free access to the university's online library resources.",
+    "translation": "学生可以免费访问大学的在线图书馆资源。"
+  },
+  {
+    "id": 10,
+    "word": "accommodate",
+    "phonetic": "/əˈkɒmədeɪt/",
+    "partOfSpeech": "v.",
+    "definition": "容纳；为……提供住宿；适应，迁就",
+    "frequency": "high",
+    "sentence": "The new stadium can accommodate up to 80,000 spectators.",
+    "translation": "新体育场最多可容纳 80,000 名观众。"
+  },
+  {
+    "id": 11,
+    "word": "accompany",
+    "phonetic": "/əˈkʌmpəni/",
+    "partOfSpeech": "v.",
+    "definition": "陪伴；伴随；为……伴奏",
+    "frequency": "high",
+    "sentence": "She asked her brother to accompany her to the job interview.",
+    "translation": "她请哥哥陪她去参加求职面试。"
+  },
+  {
+    "id": 12,
+    "word": "accomplish",
+    "phonetic": "/əˈkʌmplɪʃ/",
+    "partOfSpeech": "v.",
+    "definition": "完成；实现；达到（目标）",
+    "frequency": "high",
+    "sentence": "With determination and teamwork, we can accomplish anything we set our minds to.",
+    "translation": "凭借决心和团队合作，我们可以实现任何我们决心要做的事情。"
+  },
+  {
+    "id": 13,
+    "word": "accumulate",
+    "phonetic": "/əˈkjuːmjəleɪt/",
+    "partOfSpeech": "v.",
+    "definition": "积累；积聚；逐渐增加",
+    "frequency": "high",
+    "sentence": "Over the years, she has accumulated a vast collection of rare books.",
+    "translation": "多年来，她积累了大量的珍本藏书。"
+  },
+  {
+    "id": 14,
+    "word": "accurate",
+    "phonetic": "/ˈækjərət/",
+    "partOfSpeech": "adj.",
+    "definition": "准确的；精确的；正确无误的",
+    "frequency": "high",
+    "sentence": "It is crucial that financial reports are accurate and reliable.",
+    "translation": "财务报告准确可靠至关重要。"
+  },
+  {
+    "id": 15,
+    "word": "acknowledge",
+    "phonetic": "/əkˈnɒlɪdʒ/",
+    "partOfSpeech": "v.",
+    "definition": "承认；确认；对……表示感谢",
+    "frequency": "high",
+    "sentence": "The scientist acknowledged that her research was still in its early stages.",
+    "translation": "这位科学家承认她的研究仍处于早期阶段。"
+  },
+  {
+    "id": 16,
+    "word": "acquire",
+    "phonetic": "/əˈkwaɪə(r)/",
+    "partOfSpeech": "v.",
+    "definition": "获得；学到；购得",
+    "frequency": "high",
+    "sentence": "Learning a second language helps children acquire valuable cognitive skills.",
+    "translation": "学习第二语言有助于儿童获得宝贵的认知能力。"
+  },
+  {
+    "id": 17,
+    "word": "adapt",
+    "phonetic": "/əˈdæpt/",
+    "partOfSpeech": "v.",
+    "definition": "适应；改编；改造",
+    "frequency": "high",
+    "sentence": "Companies must adapt quickly to changing market conditions to survive.",
+    "translation": "公司必须迅速适应不断变化的市场环境才能生存。"
+  },
+  {
+    "id": 18,
+    "word": "adequate",
+    "phonetic": "/ˈædɪkwət/",
+    "partOfSpeech": "adj.",
+    "definition": "足够的；适当的；合乎需要的",
+    "frequency": "medium",
+    "sentence": "The report did not provide adequate evidence to support its conclusions.",
+    "translation": "该报告没有提供足够的证据来支持其结论。"
+  },
+  {
+    "id": 19,
+    "word": "adjust",
+    "phonetic": "/əˈdʒʌst/",
+    "partOfSpeech": "v.",
+    "definition": "调整；调节；适应",
+    "frequency": "high",
+    "sentence": "It took her a few weeks to adjust to the fast pace of city life.",
+    "translation": "她花了几周时间才适应城市生活的快节奏。"
+  },
+  {
+    "id": 20,
+    "word": "adopt",
+    "phonetic": "/əˈdɒpt/",
+    "partOfSpeech": "v.",
+    "definition": "采用；采纳；收养；正式通过",
+    "frequency": "high",
+    "sentence": "Many schools have decided to adopt a more student-centered teaching approach.",
+    "translation": "许多学校已决定采用更加以学生为中心的教学方法。"
+  },
+  {
+    "id": 21,
+    "word": "adverse",
+    "phonetic": "/ˈædvɜːs/",
+    "partOfSpeech": "adj.",
+    "definition": "不利的；有害的；反面的",
+    "frequency": "medium",
+    "sentence": "The medication may cause adverse side effects in some patients.",
+    "translation": "这种药物可能会对某些患者造成不良副作用。"
+  },
+  {
+    "id": 22,
+    "word": "advocate",
+    "phonetic": "/ˈædvəkeɪt/",
+    "partOfSpeech": "v. / n.",
+    "definition": "提倡；拥护；倡导者；辩护人",
+    "frequency": "high",
+    "sentence": "Environmental groups have long advocated for stricter pollution controls.",
+    "translation": "环保组织长期以来一直倡导更严格的污染控制。"
+  },
+  {
+    "id": 23,
+    "word": "affection",
+    "phonetic": "/əˈfekʃn/",
+    "partOfSpeech": "n.",
+    "definition": "喜爱；钟爱；深厚感情",
+    "frequency": "medium",
+    "sentence": "The elderly man spoke of his hometown with great affection.",
+    "translation": "这位老人满怀深情地谈论他的家乡。"
+  },
+  {
+    "id": 24,
+    "word": "aggressive",
+    "phonetic": "/əˈɡresɪv/",
+    "partOfSpeech": "adj.",
+    "definition": "侵略的；好斗的；积极进取的",
+    "frequency": "high",
+    "sentence": "The company has adopted an aggressive marketing strategy to expand its market share.",
+    "translation": "公司采取了积极进取的营销策略以扩大市场份额。"
+  },
+  {
+    "id": 25,
+    "word": "alleviate",
+    "phonetic": "/əˈliːvieɪt/",
+    "partOfSpeech": "v.",
+    "definition": "减轻；缓解；缓和（痛苦等）",
+    "frequency": "high",
+    "sentence": "Regular exercise can help alleviate symptoms of anxiety and depression.",
+    "translation": "定期锻炼有助于缓解焦虑和抑郁的症状。"
+  }
+]

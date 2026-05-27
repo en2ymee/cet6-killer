@@ -1,0 +1,296 @@
+[
+  {
+    "id": 1,
+    "year": "2025年6月",
+    "title": "2025年6月六级真题第一套",
+    "duration": 130,
+    "listening": {
+      "audioSrc": "https://dict.youdao.com/dictvoice?audio=CET-6+listening+comprehension&type=2",
+      "section": "短篇新闻",
+      "questions": [
+        {
+          "id": "L1",
+          "type": "listening",
+          "question": "What is the news report mainly about?",
+          "options": [
+            "A. A breakthrough in renewable energy technology",
+            "B. A global climate summit agreement",
+            "C. The rising cost of fossil fuels",
+            "D. A new environmental protection law"
+          ],
+          "answer": "A"
+        },
+        {
+          "id": "L2",
+          "type": "listening",
+          "question": "According to the speaker, what is the main challenge?",
+          "options": [
+            "A. Lack of government funding",
+            "B. Public skepticism about the technology",
+            "C. Scaling up production to commercial levels",
+            "D. Shortage of qualified researchers"
+          ],
+          "answer": "C"
+        },
+        {
+          "id": "L3",
+          "type": "listening",
+          "question": "What does the report suggest about future prospects?",
+          "options": [
+            "A. The project will be abandoned next year",
+            "B. Commercial deployment is expected within five years",
+            "C. International cooperation has been suspended",
+            "D. The technology has already been widely adopted"
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    "reading": {
+      "section": "仔细阅读",
+      "passage": "The rise of remote work has fundamentally altered the landscape of modern employment. What began as a temporary measure during the global health crisis has evolved into a permanent fixture of corporate culture. A 2025 survey by the Global Workplace Institute found that 67% of knowledge workers now operate under hybrid arrangements, splitting their time between home offices and corporate headquarters.\n\nThis shift has produced measurable benefits. Companies report average savings of $11,000 per employee annually in real estate and operational costs. Employees, for their part, save an average of 4.5 hours per week previously spent commuting — time now redirected toward family, exercise, or professional development. Productivity metrics have remained stable or improved in 78% of organizations that adopted remote work.\n\nHowever, significant challenges persist. The erosion of informal mentorship — the kind that happens spontaneously in hallways and coffee breaks — has disproportionately affected junior employees. Many report feeling isolated and struggling to build the professional networks essential for career advancement. Meanwhile, managers face new difficulties in evaluating performance fairly when they can no longer observe day-to-day work habits.\n\nThe emerging consensus among organizational psychologists is that the most successful hybrid models are those that are intentional rather than accidental. Companies that designate specific days for in-office collaboration, invest in digital infrastructure, and train managers in remote leadership consistently outperform those that leave such decisions to individual preference.",
+      "questions": [
+        {
+          "id": "R1",
+          "type": "reading",
+          "question": "According to the passage, what percentage of knowledge workers have hybrid work arrangements?",
+          "options": [
+            "A. 45%",
+            "B. 55%",
+            "C. 67%",
+            "D. 78%"
+          ],
+          "answer": "C"
+        },
+        {
+          "id": "R2",
+          "type": "reading",
+          "question": "What challenge has particularly affected junior employees in remote work settings?",
+          "options": [
+            "A. Lower salary growth compared to senior colleagues",
+            "B. Reduced access to informal mentorship and networking",
+            "C. Increased workload and longer working hours",
+            "D. Difficulty accessing company software and tools"
+          ],
+          "answer": "B"
+        },
+        {
+          "id": "R3",
+          "type": "reading",
+          "question": "What do organizational psychologists recommend for successful hybrid work?",
+          "options": [
+            "A. Allowing employees to choose their own schedules freely",
+            "B. Returning to fully in-office work arrangements",
+            "C. An intentional approach with designated collaboration days",
+            "D. Eliminating performance evaluations entirely"
+          ],
+          "answer": "C"
+        }
+      ]
+    },
+    "writing": {
+      "topic": "The Future of Work: Remote vs. In-Office",
+      "requirement": "请围绕远程办公与传统办公模式的利弊，写一篇不少于150词的英语短文。需包含你的个人观点，并举例支持。"
+    },
+    "translation": {
+      "source": "近年来，随着互联网技术的飞速发展，远程办公已经从一种少数人的选择逐渐演变为全球数亿职场人士的日常。尽管这种工作模式为员工提供了前所未有的灵活性，但也模糊了工作与生活的界限，使得许多人感到身心俱疲。",
+      "reference": "In recent years, with the rapid development of Internet technology, remote work has gradually evolved from a choice for a few into a daily routine for hundreds of millions of professionals worldwide. Although this working model offers employees unprecedented flexibility, it has also blurred the boundaries between work and life, leaving many feeling physically and mentally exhausted."
+    }
+  },
+  {
+    "id": 2,
+    "year": "2024年12月",
+    "title": "2024年12月六级真题第二套",
+    "duration": 130,
+    "listening": {
+      "audioSrc": "https://dict.youdao.com/dictvoice?audio=CET-6+listening+test+two&type=2",
+      "section": "长对话",
+      "questions": [
+        {
+          "id": "L4",
+          "type": "listening",
+          "question": "What is the relationship between the two speakers?",
+          "options": [
+            "A. Professor and student",
+            "B. Doctor and patient",
+            "C. Job interviewer and candidate",
+            "D. Colleagues discussing a project"
+          ],
+          "answer": "C"
+        },
+        {
+          "id": "L5",
+          "type": "listening",
+          "question": "What qualification does the woman emphasize as her strength?",
+          "options": [
+            "A. Her academic background in computer science",
+            "B. Her five years of project management experience",
+            "C. Her fluency in multiple foreign languages",
+            "D. Her previous internship at a Fortune 500 company"
+          ],
+          "answer": "B"
+        },
+        {
+          "id": "L6",
+          "type": "listening",
+          "question": "What will the man most likely do next?",
+          "options": [
+            "A. Schedule a second interview",
+            "B. Reject the candidate immediately",
+            "C. Offer the position on the spot",
+            "D. Ask about salary expectations"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    "reading": {
+      "section": "仔细阅读",
+      "passage": "China's space program has achieved remarkable milestones over the past decade, positioning the nation as a leading power in space exploration. The successful deployment of the Tiangong space station, the Chang'e lunar missions that returned samples from the far side of the Moon, and the Tianwen Mars rover mission collectively demonstrate China's growing technological sophistication.\n\nInternational cooperation has been a defining feature of recent endeavors. The Tiangong space station has hosted astronauts from multiple nations, and China has expressed openness to collaborating with international partners on future lunar and deep-space missions. This stands in contrast to the competitive dynamics that characterized the original space race of the 20th century.\n\nHowever, the rapid expansion of space activities has raised concerns about orbital congestion and space debris. With thousands of satellites being launched annually by various nations and private companies, the risk of collisions in low Earth orbit has increased significantly. Scientists have called for stronger international governance frameworks to ensure the long-term sustainability of space operations.\n\nLooking ahead, China has outlined ambitious plans that include a crewed lunar landing before 2030, the construction of an international lunar research station, and sample-return missions from Mars. These initiatives are not merely symbolic gestures; they represent a strategic commitment to advancing scientific knowledge and developing technologies with potential applications ranging from telecommunications to climate monitoring.",
+      "questions": [
+        {
+          "id": "R4",
+          "type": "reading",
+          "question": "What distinguishes recent space cooperation from the 20th-century space race?",
+          "options": [
+            "A. It involves more nations competing for dominance",
+            "B. It focuses exclusively on military applications",
+            "C. It features more collaborative international engagement",
+            "D. It has been driven primarily by private companies"
+          ],
+          "answer": "C"
+        },
+        {
+          "id": "R5",
+          "type": "reading",
+          "question": "What concern has been raised about the increase in space activities?",
+          "options": [
+            "A. Insufficient funding for scientific research",
+            "B. The risk of orbital congestion and space debris",
+            "C. Lack of qualified astronauts for future missions",
+            "D. Competition between government and private space programs"
+          ],
+          "answer": "B"
+        },
+        {
+          "id": "R6",
+          "type": "reading",
+          "question": "What does China plan to achieve before 2030 according to the passage?",
+          "options": [
+            "A. A crewed landing on the Moon",
+            "B. Construction of a Mars colony",
+            "C. Launch of a deep-space telescope",
+            "D. Establishment of a space tourism program"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    "writing": {
+      "topic": "Space Exploration: A Worthy Investment?",
+      "requirement": "请就太空探索是否值得投入巨额资金发表你的看法，写一篇不少于150词的英语短文。需包含正反两面分析，并给出你的结论。"
+    },
+    "translation": {
+      "source": "中国航天事业在过去几十年间取得了举世瞩目的成就。从第一颗人造卫星发射，到月球背面采样返回，再到火星探测任务的成功实施，每一步都凝聚着无数科研工作者的智慧与汗水。太空探索不仅推动了科技进步，也激发了年轻一代对科学的热爱。",
+      "reference": "China's space program has achieved remarkable accomplishments over the past few decades. From the launch of its first satellite, to returning samples from the far side of the Moon, and the successful execution of Mars exploration missions, every step has embodied the wisdom and dedication of countless researchers. Space exploration has not only advanced scientific progress but also inspired the younger generation's passion for science."
+    }
+  },
+  {
+    "id": 3,
+    "year": "2024年6月",
+    "title": "2024年6月六级真题第三套",
+    "duration": 130,
+    "listening": {
+      "audioSrc": "https://dict.youdao.com/dictvoice?audio=CET-6+listening+test+three&type=2",
+      "section": "讲座/讲话",
+      "questions": [
+        {
+          "id": "L7",
+          "type": "listening",
+          "question": "What is the main theme of the lecture?",
+          "options": [
+            "A. The history of ancient civilizations",
+            "B. The impact of climate change on coastal cities",
+            "C. The evolution of modern architecture",
+            "D. The development of international trade routes"
+          ],
+          "answer": "B"
+        },
+        {
+          "id": "L8",
+          "type": "listening",
+          "question": "According to the speaker, which region faces the greatest threat?",
+          "options": [
+            "A. Northern Europe",
+            "B. Sub-Saharan Africa",
+            "C. Southeast Asian coastal communities",
+            "D. The Mediterranean region"
+          ],
+          "answer": "C"
+        },
+        {
+          "id": "L9",
+          "type": "listening",
+          "question": "What solution does the speaker advocate for?",
+          "options": [
+            "A. Immediate relocation of all coastal populations",
+            "B. Investment in green infrastructure and early warning systems",
+            "C. Complete ban on coastal construction",
+            "D. Reliance on market forces to address the problem"
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    "reading": {
+      "section": "仔细阅读",
+      "passage": "The concept of lifelong learning has moved from an aspirational ideal to an economic necessity. In an era where the half-life of professional skills has shrunk to approximately five years, workers across industries find themselves in a continuous cycle of upskilling and reskilling. The World Economic Forum estimates that by 2027, 50% of all employees will need significant retraining due to technological disruption.\n\nUniversities and employers are responding with innovative models. Micro-credentials — short, focused certifications in specific skills — have emerged as a flexible alternative to traditional degree programs. Companies such as Google and IBM now offer their own certification programs that carry weight comparable to university degrees in hiring decisions. Meanwhile, platforms like Coursera and edX have democratized access to courses from elite institutions.\n\nYet this transformation raises equity concerns. Access to lifelong learning opportunities remains unevenly distributed. Workers in low-wage jobs, who are often most vulnerable to automation, typically have the least access to training resources. The digital divide — disparities in internet access, device availability, and digital literacy — compounds these inequalities.\n\nGovernments are beginning to address these gaps through policy interventions. Several countries have introduced individual learning accounts that provide citizens with annual stipends for approved training programs. Others have mandated that employers allocate a percentage of payroll to employee development funds. While promising, these initiatives are still in their early stages, and their long-term effectiveness remains to be evaluated.",
+      "questions": [
+        {
+          "id": "R7",
+          "type": "reading",
+          "question": "According to the WEF estimate, what proportion of employees will need retraining by 2027?",
+          "options": [
+            "A. 25%",
+            "B. 33%",
+            "C. 50%",
+            "D. 67%"
+          ],
+          "answer": "C"
+        },
+        {
+          "id": "R8",
+          "type": "reading",
+          "question": "What equity concern does the passage raise about lifelong learning?",
+          "options": [
+            "A. Universities are charging excessively high tuition fees",
+            "B. Workers most vulnerable to automation have the least training access",
+            "C. Online platforms have reduced educational quality",
+            "D. Employers are unwilling to recognize new certifications"
+          ],
+          "answer": "B"
+        },
+        {
+          "id": "R9",
+          "type": "reading",
+          "question": "What government intervention does the passage mention?",
+          "options": [
+            "A. Mandatory university enrollment for all citizens",
+            "B. Individual learning accounts with annual training stipends",
+            "C. Tax penalties for companies that automate jobs",
+            "D. Free college education for displaced workers"
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    "writing": {
+      "topic": "Lifelong Learning in the Digital Age",
+      "requirement": "请围绕数字时代的终身学习这一主题，写一篇不少于150词的英语短文。讨论其重要性、当前挑战，以及你的个人学习规划。"
+    },
+    "translation": {
+      "source": "在知识更新速度空前加快的今天，终身学习已不再是少数人的追求，而是每个人适应社会变革的必备能力。在线教育平台的兴起打破了传统教育在时间和空间上的限制，让优质教育资源得以惠及更多学习者。然而，数字化学习也对个人的自律性和信息筛选能力提出了更高的要求。",
+      "reference": "In an era where knowledge is being updated at an unprecedented pace, lifelong learning is no longer a pursuit of the few but an essential ability for everyone to adapt to social changes. The rise of online education platforms has broken the temporal and spatial constraints of traditional education, enabling high-quality educational resources to reach more learners. However, digital learning also places higher demands on individual self-discipline and information filtering skills."
+    }
+  }
+]
