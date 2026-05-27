@@ -647,6 +647,23 @@ export default function ExamRoom() {
     setTranslationGradeStatus("done");
   }, [translation, paper]);
 
+  // ---- Timer ----
+  useEffect(() => {
+    if (isStarted && !isSubmitted && timeLeft > 0) {
+      timerRef.current = setInterval(() => {
+        setTimeLeft((t) => {
+          if (t <= 1) {
+            clearInterval(timerRef.current);
+            handleSubmit();
+            return 0;
+          }
+          return t - 1;
+        });
+      }, 1000);
+    }
+    return () => clearInterval(timerRef.current);
+  }, [isStarted, isSubmitted]);
+
   // ---- Loading ----
   if (isLoadingPapers) {
     return (
@@ -698,23 +715,6 @@ export default function ExamRoom() {
       </div>
     );
   }
-
-  // ---- Timer ----
-  useEffect(() => {
-    if (isStarted && !isSubmitted && timeLeft > 0) {
-      timerRef.current = setInterval(() => {
-        setTimeLeft((t) => {
-          if (t <= 1) {
-            clearInterval(timerRef.current);
-            handleSubmit();
-            return 0;
-          }
-          return t - 1;
-        });
-      }, 1000);
-    }
-    return () => clearInterval(timerRef.current);
-  }, [isStarted, isSubmitted]);
 
   function selectAnswer(questionId, option) {
     if (isSubmitted) return;
