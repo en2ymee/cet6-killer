@@ -35,23 +35,62 @@ export default function Vocabulary() {
   const [isLoadingWords, setIsLoadingWords] = useState(true);
   const [loadError, setLoadError] = useState(null);
 
-  // ---- Fetch word bank from public/data/ ----
+  // ---- Adapter: normalize external dict format to our schema ----
+  function adaptWordBank(raw) {
+    return raw.map((item, i) => ({
+      id: i + 1,
+      word: item.name || item.word || "",
+      phonetic: item.usphone || item.ukphone || item.phonetic || "",
+      definition: Array.isArray(item.trans)
+        ? item.trans.join("；")
+        : (item.trans || item.definition || ""),
+      partOfSpeech: item.partOfSpeech || "",
+      frequency: item.frequency || "medium",
+      sentence: item.sentence || "",
+      translation: item.translation || "",
+    }));
+  }
+
+  // ---- Fetch word bank: CDN first, local fallback ----
+  const CDN_URL =
+    "https://raw.githubusercontent.com/Polyphony-Design/qwerty-learner/main/renderer/public/dicts/CET6_T.json";
+  const LOCAL_URL = "/data/cet6_words.json";
+
   useEffect(() => {
+    let cancelled = false;
     setIsLoadingWords(true);
     setLoadError(null);
-    fetch('/data/cet6_words.json')
-      .then((res) => {
-        if (!res.ok) throw new Error(`HTTP ${res.status}`);
-        return res.json();
-      })
-      .then((data) => {
-        setWordBank(data);
-        setIsLoadingWords(false);
-      })
-      .catch((err) => {
-        setLoadError(err.message);
-        setIsLoadingWords(false);
-      });
+
+    (async () => {
+      try {
+        // Try CDN first
+        const res = await fetch(CDN_URL);
+        if (!res.ok) throw new Error(`CDN HTTP ${res.status}`);
+        const raw = await res.json();
+        if (!cancelled) {
+          setWordBank(adaptWordBank(raw));
+          setIsLoadingWords(false);
+        }
+      } catch {
+        // CDN failed — fall back to local
+        try {
+          const res = await fetch(LOCAL_URL);
+          if (!res.ok) throw new Error(`Local HTTP ${res.status}`);
+          const data = await res.json();
+          if (!cancelled) {
+            setWordBank(data);
+            setIsLoadingWords(false);
+          }
+        } catch (err) {
+          if (!cancelled) {
+            setLoadError(err.message);
+            setIsLoadingWords(false);
+          }
+        }
+      }
+    })();
+
+    return () => { cancelled = true; };
   }, []);
 
   // ---- Init: restore saved session after words loaded ----
