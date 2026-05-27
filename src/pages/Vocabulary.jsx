@@ -53,7 +53,7 @@ export default function Vocabulary() {
 
   // ---- Fetch word bank: CDN first, local fallback ----
   const CDN_URL =
-    "https://raw.githubusercontent.com/Polyphony-Design/qwerty-learner/main/renderer/public/dicts/CET6_T.json";
+    "https://fastly.jsdelivr.net/gh/Polyphony-Design/qwerty-learner@main/renderer/public/dicts/CET6_T.json";
   const LOCAL_URL = "/data/cet6_words.json";
 
   useEffect(() => {
